@@ -7,7 +7,45 @@ Vaga
 CV
 ==
 
-h2. Apresentação
+## Apresentação
+
+    Hoje, você desenvolver para a Web, devido a concorrência no fornecimento de soluções e dispositivos, 
+    se tornou um pesadelo para os profissionais definirem sua área de atuação, bem como a demanda, cada vez 
+    maior por tecnologias de alta concorrência.
+    
+    Analisando o mundo web, descobre-se, surgir, uma tendência, de finalmente, considerar o site web, como uma
+    aplicação, saindo do modelo convencional, banco de dados, servidor e html.
+    
+    ### Front End
+    Visando melhor aproveitar o processamento disponível na máquina do cliente, sugere-se, adotar tecnologias
+    de MVC no front-end (Backbone, CanJS, AngularJS, DerbyJS), substituindo o processamento, anteriormente,
+    realizado no servidor, por processamento no lado cliente, deixando o servidor, 
+    somente responsável pelos filtros a ser aplicado nas requisições de dados.
+    
+    O que, todos estes framework de front-end tem em comum, é a declaração do modelo da aplicação
+    (estrutura de dados, conforme ele será consumido - com relacionamentos aninhados), facilitando o seu 
+    manuseio por aqueles responsáveis pela visualização.
+    
+    ### Big Data
+    
+    ### Servidor
+    
+    ### Realtime
+    
+    ### NoSQL
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+## Experiência
+
+## Informações Pessoais
 
 
 
