@@ -16,33 +16,53 @@ CV
     Analisando o mundo web, descobre-se, surgir, uma tendência, de finalmente, considerar o site web, como uma
     aplicação, saindo do modelo convencional, banco de dados, servidor e html.
     
-    ### Front End
-    Visando melhor aproveitar o processamento disponível na máquina do cliente, sugere-se, adotar tecnologias
+### Front End
+        Visando melhor aproveitar o processamento disponível na máquina do cliente, sugere-se, adotar tecnologias
     de MVC no front-end (Backbone, CanJS, AngularJS, DerbyJS), substituindo o processamento, anteriormente,
     realizado no servidor, por processamento no lado cliente, deixando o servidor, 
-    somente responsável pelos filtros a ser aplicado nas requisições de dados.
+    somente responsável pelos filtros a ser aplicado nas requisições de dados feitas pelo cliente.
     
     O que, todos estes framework de front-end tem em comum, é a declaração do modelo da aplicação
-    (estrutura de dados, conforme ele será consumido - com relacionamentos aninhados), facilitando o seu 
+    (estrutura de dados, conforme será consumido - com relacionamentos aninhados), facilitando o seu 
     manuseio por aqueles responsáveis pela visualização.
+    O padrão MVC resumidamente:
+    * Aplicações separadas, distinguindo a apresentação, dados e componentes de lógica
+    * Incentivar a conexão entre estes componentes
     
-    ### Big Data
+    A palavra MVC, remete a um novo mundo, similar ao server side, mas, só que em puro 
+    javascript, que inclui rotas, módulos, componentes, templates, parciais, diretivas, etc... 
+    MVC no front-end
+        * estrutura melhor a aplicação
+        * facilita a manutenção
+        * possibilita o código ser mais testável.
+        * escalável
     
-    ### Servidor
-    
-    ### Realtime
-    
-    ### NoSQL
-    
-    
-    
-    
-    
-    
-    
-    
+### Servidor
+    Mostrando cada vez mais maturidade, NodeJS sobre a engine V8 do Google, abriu novos caminhos
+    para o desenvolvimento web, facilitando o uso de websocket, e garantindo multiplas vezes conexões
+    concorrentes comparado com outros ambientes.
+    Mas seu papel, meramente é autenticar o usuário, e servir sua árvore de dados.
+    Uma só linguagem de programação para cliente e servidor, é um sonho.
 
-
+### NoSQL
+    Esta é a jóia da coroa, e que os sistemas relacionais tanto temiam que chegasse ao mercado.
+    Você guardar os dados, da mesma forma que for consumir, é a mesma coisa que rasgar 80% da 
+    programação do servidor, com uma visão bem mais cordial, você guardar informações em documentos
+    estruturados
+    
+### Realtime
+    
+### Palavras finais
+    A 8 anos desenvolvendo web, se faz necessário, por diversas vezes, sair de sua zona de conforto
+    e buscar novos conhecimentos, procurando atender a demanda pelo mercado.
+    
+    Normalmente responsável por equipe de desenvolvimento, pratiquei muito, PHP, python e ruby,
+    no lado de banco de dados, MySQL, Oracle, SQLite, Postgres.
+    
+    A parceria NodeJS e MongoDB, realmente, não pode passar desapercebido, com uma
+    concorrência de conexão bem superior ás outras ferramentas de mercado (php, ruby, python),
+    disponibiliza para o desenvolvedor, uma poderosa e escalável estrutura para disponibilizar web-sites.
+    
 ## Experiência
 
 ## Informações Pessoais
