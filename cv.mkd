@@ -11,7 +11,7 @@ CV
 
     Hoje, você desenvolver para a Web, devido a concorrência no fornecimento de soluções e dispositivos, 
     se tornou um pesadelo para os profissionais definirem sua área de atuação, bem como a demanda, cada vez 
-    maior por tecnologias de alta concorrência.
+    maior por tecnologias de alta concorrência e responsivas.
     
     Analisando o mundo web, descobre-se, surgir, uma tendência, de finalmente, considerar o site web, como uma
     aplicação, saindo do modelo convencional, banco de dados, servidor e html.
@@ -41,27 +41,106 @@ CV
     Mostrando cada vez mais maturidade, NodeJS sobre a engine V8 do Google, abriu novos caminhos
     para o desenvolvimento web, facilitando o uso de websocket, e garantindo multiplas vezes conexões
     concorrentes comparado com outros ambientes.
-    Mas seu papel, meramente é autenticar o usuário, e servir sua árvore de dados.
+    Mas seu papel, meramente é autenticar o usuário, e manipular sua árvore de dados.
     Uma só linguagem de programação para cliente e servidor, é um sonho.
 
 ### NoSQL
     Esta é a jóia da coroa, e que os sistemas relacionais tanto temiam que chegasse ao mercado.
     Você guardar os dados, da mesma forma que for consumir, é a mesma coisa que rasgar 80% da 
-    programação do servidor, com uma visão bem mais cordial, você guardar informações em documentos
-    estruturados
+    programação do servidor, com uma visão bem mais cordial, você guarda informações em documentos
+    estruturados e totalmente mutável.
+    
+**Exemplo de schema ilustrativo:**
+```
+User = [{
+    acessoId: [11111111,2222222,333333,4444444], //ligação com os documentos de analytics
+    nome:"Gerusa Dias",
+    login: "gerusadias@globo.com",
+    comportamento: [
+        {
+            turnoAcessado:{manha: "30%",tarde: "10%",noite: "60%"},
+            tempoMedioSessao: "50 minutos"
+        }
+    ],
+    videos_assistidos:[
+    	//este primeiro vídeo já é o último vídeo visualizado, 
+    	//para recuperar o estado do usuário quando ele voltar a página
+    	{
+    	    ancora: {
+    	        nome:"Jornal Nacional",
+    	        videosVisualizados: 234,
+                assuntosPreferidos: ["novelas","jornalismo","futebol"],
+                adquiriuProdutoGlobo: [
+                    {
+                        idProduto: "123l4ko323l",
+                        nome: "DVD noites fantásticas",
+                        valor: 26.34,
+                        data: 123455667788
+                    }
+                ],
+                indicacoes: [
+                    {
+                        nome: "Gereusa Dias",
+                        parentesco: "Filha",
+                        email: "gereusadias@gmail.com",
+                        globoId: "dferdsl3l23ji"
+                    }
+                ]
+    	    },
+    	    video: [
+    	        {
+    	            nome: "Bombeiro demora 8 horas para remover bichano de taquaral",
+    	            link: "http://globo.com/k432lwlip",
+    	            locutor: "William Bonner",
+    	            tags: ["gato","bombeiro","taquaral"],
+    	            visualizado: [1234567890009,12345679000000], //data e hora
+    	            adSenses: [
+    	                {
+    	            	    patrocinador: "Fiat",
+    	            	    clicado: false,
+    	            	    mouseover: true,
+    	            	    tipo: "flash interativo"
+    	                }
+    	            ]
+    	        },{}
+    	    ]
+    	},{}
+    ]
+}];
+```
+Observando o exemplo acima, imagine, se tivéssemos estas informações em um banco de dados relacional, a complexidade que seria criar e gerenciar este modelo, e a quantidade de código front e back-end administrando a lógica.
+
+Ao invés, arquiva e serve os dados, num único formato(JSON/BSON), dispensando manipulações desnecessárias, e ainda possibilita criar-se aplicações que respondem conforme histórico de utilização do usuário (dando a impressão, que o software foi desenhado para o mesmo).
+
+Desta maneira, deixa-se espaço para o desenvolvedor aprimorar a captura de informações, servindo, sua análise, de base para a criação de novos produtos, que se encaixam como uma luva na necessidade/desejo do usuário.
     
 ### Realtime
     
 ### Palavras finais
+
     A 8 anos desenvolvendo web, se faz necessário, por diversas vezes, sair de sua zona de conforto
-    e buscar novos conhecimentos, procurando atender a demanda pelo mercado.
+    e buscar novos conhecimentos, afins de permanecer no mercado.
     
-    Normalmente responsável por equipe de desenvolvimento, pratiquei muito, PHP, python e ruby,
-    no lado de banco de dados, MySQL, Oracle, SQLite, Postgres.
+    Normalmente responsável pelo desenvolvimento, pratiquei muito, PHP, python e ruby,
+    no lado de banco de dados, MySQL, Oracle, SQLite, Postgres, no javascript MooTools, jQuery e sua gang.
     
-    A parceria NodeJS e MongoDB, realmente, não pode passar desapercebido, com uma
-    concorrência de conexão bem superior ás outras ferramentas de mercado (php, ruby, python),
-    disponibiliza para o desenvolvedor, uma poderosa e escalável estrutura para disponibilizar web-sites.
+    Mas havia uma forma melhor, de se fazer mais, e de uma forma menos braçal (codificar), e neste currículo,
+    condensado, o estudo de 2 anos, sobre esta nova forma de fazer web, mais simplificada, interativa e livre.
+    
+A parceria NodeJS e MongoDB, realmente, não pode passar desapercebido, com uma concorrência de conexão bem superior ás outras ferramentas do mercado (php, ruby, python), disponibiliza para o desenvolvedor, uma poderosa e escalável estrutura para disponibilizar websites inteligentes e interativos.
+
+Evoluindo o arquivamento de informações sobre o usuário, o No_SQL, com suas coleções de documentos polimórficas (adaptáveis), facilitando, inclusive, o **mapeamento do universo comportamental do usuário**. 
+Tendo JSON como fundamento da árvore de dados, guarda nativamente, as informações, da forma que será consumida no lado cliente, que também é JSON.
+
+E, o que reduzirá o número de conexões com o servidor, um framework javascript de front-end, pois, todo o processamento da aplicação, passará para o cliente, economizando em servidor, pois normalmente js é estático, e pode muito bem ser servido de um cdn.
+
+Exemplo de atores e papéis:
+
+* AngularJS - MVC front-end, gerencia modelos, processa lógica, roteamentos, templates, etc.
+* NodeJS - Autentica e manuseia árvore de dados
+* MongoDB - Arquiva em documento estruturado, como dados, serviços, comportamentos, **estado da aplicação** e tudo mais, que a programação do front-end for capaz de processar sobre o usuário.
+
+Estrutura robusta, relativamente, de baixo custo, reduzindo fortemente a quantidade de conexões ao servidor, fazendo com que o desenvolvedor se preocupe, com a lógica da aplicação, aprimorando a experiência do usuário. 
     
 ## Experiência
 
