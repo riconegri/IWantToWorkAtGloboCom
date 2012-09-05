@@ -9,46 +9,35 @@ CV
 
 ## Apresentação
 
-    Hoje, você desenvolver para a Web, devido a concorrência no fornecimento de soluções e dispositivos, 
-    se tornou um pesadelo para os profissionais definirem sua área de atuação, bem como a demanda, cada vez 
-    maior por tecnologias de alta concorrência e responsivas.
+Hoje, você desenvolver para a Web, devido a concorrência no fornecimento de soluções e dispositivos, se tornou um pesadelo para os profissionais definirem sua área de atuação, bem como a demanda, cada vez maior por tecnologias de alta concorrência e responsivas.
     
-    Analisando o mundo web, descobre-se, surgir, uma tendência, de finalmente, considerar o site web, como uma
-    aplicação, saindo do modelo convencional, banco de dados, servidor e html.
+Analisando o mundo web, descobre-se, surgir, uma tendência, de finalmente, considerar o site web, como uma aplicação, saindo do modelo convencional, banco de dados, servidor e html.
     
 ### Front End
-        Visando melhor aproveitar o processamento disponível na máquina do cliente, sugere-se, adotar tecnologias
-    de MVC no front-end (Backbone, CanJS, AngularJS, DerbyJS), substituindo o processamento, anteriormente,
-    realizado no servidor, por processamento no lado cliente, deixando o servidor, 
-    somente responsável pelos filtros a ser aplicado nas requisições de dados feitas pelo cliente.
+
+Visando melhor aproveitar o processamento disponível na máquina do cliente, sugere-se, adotar tecnologias de MVC no front-end (Backbone, CanJS, AngularJS, DerbyJS), substituindo o processamento, anteriormente, realizado no servidor, por processamento no lado cliente, deixando o servidor, somente responsável pelos filtros a ser aplicado nas requisições de dados feitas pelo cliente.
     
-    O que, todos estes framework de front-end tem em comum, é a declaração do modelo da aplicação
-    (estrutura de dados, conforme será consumido - com relacionamentos aninhados), facilitando o seu 
-    manuseio por aqueles responsáveis pela visualização.
-    O padrão MVC resumidamente:
-    * Aplicações separadas, distinguindo a apresentação, dados e componentes de lógica
-    * Incentivar a conexão entre estes componentes
+O que, todos estes framework de front-end tem em comum, é a declaração do modelo da aplicação (estrutura de dados, conforme será consumido - com relacionamentos aninhados), facilitando o seu manuseio por aqueles responsáveis pela visualização. O padrão MVC resumidamente:
+* Aplicações separadas, distinguindo a apresentação, dados e componentes de lógica
+* Incentivar a conexão entre estes componentes
     
-    A palavra MVC, remete a um novo mundo, similar ao server side, mas, só que em puro 
-    javascript, que inclui rotas, módulos, componentes, templates, parciais, diretivas, etc... 
-    MVC no front-end
-        * estrutura melhor a aplicação
-        * facilita a manutenção
-        * possibilita o código ser mais testável.
-        * escalável
+A palavra MVC, remete a um novo mundo, similar ao server side, mas, só que em puro javascript, que inclui rotas, módulos, componentes, templates, parciais, diretivas, etc... 
+
+MVC no front-end:
+* estrutura melhor a aplicação
+* facilita a manutenção
+* possibilita o código ser mais testável.
+* escalável
     
 ### Servidor
-    Mostrando cada vez mais maturidade, NodeJS sobre a engine V8 do Google, abriu novos caminhos
-    para o desenvolvimento web, facilitando o uso de websocket, e garantindo multiplas vezes conexões
-    concorrentes comparado com outros ambientes.
-    Mas seu papel, meramente é autenticar o usuário, e manipular sua árvore de dados.
-    Uma só linguagem de programação para cliente e servidor, é um sonho.
+
+Mostrando cada vez mais maturidade, NodeJS sobre a engine V8 do Google, abriu novos caminhos para o desenvolvimento web, facilitando o uso de websocket, e garantindo multiplas vezes conexões concorrentes comparado com outros ambientes.
+Mas seu papel, meramente é autenticar o usuário, e manipular sua árvore de dados.
+Uma só linguagem de programação para cliente e servidor, é um sonho.
 
 ### NoSQL
-    Esta é a jóia da coroa, e que os sistemas relacionais tanto temiam que chegasse ao mercado.
-    Você guardar os dados, da mesma forma que for consumir, é a mesma coisa que rasgar 80% da 
-    programação do servidor, com uma visão bem mais cordial, você guarda informações em documentos
-    estruturados e totalmente mutável.
+Esta é a jóia da coroa, e que os sistemas relacionais tanto temiam que chegasse ao mercado.
+Você guardar os dados, da mesma forma que for consumir, é a mesma coisa que rasgar 80% da programação do servidor, com uma visão bem mais cordial, você guarda informações em documentos estruturados e totalmente mutável.
     
 **Exemplo de schema ilustrativo:**
 ```
@@ -118,14 +107,11 @@ Desta maneira, deixa-se espaço para o desenvolvedor aprimorar a captura de info
     
 ### Palavras finais
 
-    A 8 anos desenvolvendo web, se faz necessário, por diversas vezes, sair de sua zona de conforto
-    e buscar novos conhecimentos, afins de permanecer no mercado.
+A 8 anos desenvolvendo web, se faz necessário, por diversas vezes, sair de sua zona de conforto e buscar novos conhecimentos, afins de permanecer no mercado.
     
-    Normalmente responsável pelo desenvolvimento, pratiquei muito, PHP, python e ruby,
-    no lado de banco de dados, MySQL, Oracle, SQLite, Postgres, no javascript MooTools, jQuery e sua gang.
+Normalmente responsável pelo desenvolvimento, pratiquei muito, PHP, python e ruby, no lado de banco de dados, MySQL, Oracle, SQLite, Postgres, no javascript MooTools, jQuery e sua gang.
     
-    Mas havia uma forma melhor, de se fazer mais, e de uma forma menos braçal (codificar), e neste currículo,
-    condensado, o estudo de 2 anos, sobre esta nova forma de fazer web, mais simplificada, interativa e livre.
+Mas havia uma forma melhor, de se fazer mais, e de uma forma menos braçal (codificar), e neste currículo, condensado, o estudo de 2 anos, sobre esta nova forma de fazer web, mais simplificada, interativa e livre.
     
 A parceria NodeJS e MongoDB, realmente, não pode passar desapercebido, com uma concorrência de conexão bem superior ás outras ferramentas do mercado (php, ruby, python), disponibiliza para o desenvolvedor, uma poderosa e escalável estrutura para disponibilizar websites inteligentes e interativos.
 
