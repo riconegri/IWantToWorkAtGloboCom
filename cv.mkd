@@ -51,36 +51,38 @@ User = [{
             tempoMedioSessao: "50 minutos"
         }
     ],
+    ,
+    videosVisualizados: 234,
+    assuntosPreferidos: ["novelas","jornalismo","futebol"],
+    adquiriuProdutoGlobo: [
+    	{
+             idProduto: "123l4ko323l",
+             nome: "DVD noites fantásticas",
+             valor: 26.34,
+             data: 123455667788
+        }
+     ],
+     indicacoes: [
+     	{
+            nome: "Gereusa Dias",
+            parentesco: "Filha",
+            email: "gereusadias@gmail.com",
+            globoId: "dferdsl3l23ji"
+        }
+    ],
     videos_assistidos:[
     	//este primeiro vídeo já é o último vídeo visualizado, 
     	//para recuperar o estado do usuário quando ele voltar a página
     	{
     	    ancora: {
     	        nome:"Jornal Nacional",
-    	        videosVisualizados: 234,
-                assuntosPreferidos: ["novelas","jornalismo","futebol"],
-                adquiriuProdutoGlobo: [
-                    {
-                        idProduto: "123l4ko323l",
-                        nome: "DVD noites fantásticas",
-                        valor: 26.34,
-                        data: 123455667788
-                    }
-                ],
-                indicacoes: [
-                    {
-                        nome: "Gereusa Dias",
-                        parentesco: "Filha",
-                        email: "gereusadias@gmail.com",
-                        globoId: "dferdsl3l23ji"
-                    }
-                ]
+    	        apresentador:['wbonner','fbernardes']
     	    },
     	    video: [
     	        {
     	            nome: "Bombeiro demora 8 horas para remover bichano de taquaral",
     	            link: "http://globo.com/k432lwlip",
-    	            locutor: "William Bonner",
+    	            narrador: "William Bonner",
     	            tags: ["gato","bombeiro","taquaral"],
     	            visualizado: [1234567890009,12345679000000], //data e hora
     	            adSenses: [
@@ -89,7 +91,7 @@ User = [{
     	            	    clicado: false,
     	            	    mouseover: true,
     	            	    tipo: "flash interativo"
-    	                }
+    	                },{}
     	            ]
     	        },{}
     	    ]
