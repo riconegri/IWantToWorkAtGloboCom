@@ -9,19 +9,21 @@ CV
 
 ## Apresentação
 
-Hoje, você desenvolver para a Web, devido a concorrência no fornecimento de soluções e dispositivos, se tornou um pesadelo para os profissionais definirem sua área de atuação, bem como a demanda, cada vez maior por tecnologias de alta concorrência e responsivas.
-    
-Analisando o mundo web, descobre-se, surgir, uma tendência, de finalmente, considerar o site web, como uma aplicação, saindo do modelo convencional, banco de dados, servidor e html.
-    
+Desenvolver web, está atrelado a escolhas... dispositivos, browsers, tecnologias, sistemas operacionais, e adiante...
+
+A salvação deste mar de ideias e genialidades, realmente será o bom e velho html, principalmente na sua nova versão, aceito por todos os dispositivos, e funcionalidades excepcionais (ex. getUserMedia, localStorage).
+
+Como desenvolvedor, o lema do jQuery(write less, do more), realmente é uma obsessão, forçando buscar opções, até chegar no ponto 'justo', onde, o equilíbrio do resultado do que você escreve com o que processa, te satisfaça.
+
 ### Front End
 
-Visando melhor aproveitar o processamento disponível na máquina do cliente, sugere-se, adotar tecnologias de MVC no front-end (Backbone, CanJS, AngularJS, DerbyJS), substituindo o processamento, anteriormente, realizado no servidor, por processamento no lado cliente, deixando o servidor, somente responsável pelos filtros a ser aplicado nas requisições de dados feitas pelo cliente.
+Visando melhor aproveitar o processamento disponível na máquina do cliente, sugere-se, adotar tecnologias de MVC no cliente (Backbone, CanJS, AngularJS), substituindo o processamento, anteriormente, realizado no servidor, por processamento no lado cliente, deixando o server-side, somente responsável pelos filtros aplicado nas requisições de dados feitas no front.
     
-O que, todos estes framework de front-end tem em comum, é a declaração do modelo da aplicação (estrutura de dados, conforme será consumido - com relacionamentos aninhados), facilitando o seu manuseio por aqueles responsáveis pela visualização. O padrão MVC resumidamente:
+O padrão MVC resumidamente:
 * Aplicações separadas, distinguindo a apresentação, dados e componentes de lógica
 * Incentivar a conexão entre estes componentes
     
-A palavra MVC, remete a um novo mundo, similar ao server side, mas, só que em puro javascript, que inclui rotas, módulos, componentes, templates, parciais, diretivas, etc... 
+A palavra MVC, remete a um novo mundo, similar ao server-side, mas, só que em puro javascript, que inclui rotas, módulos, componentes, templates, parciais, diretrizes, etc... 
 
 MVC no front-end:
 * estrutura melhor a aplicação
@@ -31,7 +33,7 @@ MVC no front-end:
     
 ### Servidor
 
-Mostrando cada vez mais maturidade, NodeJS sobre a engine V8 do Google, abriu novos caminhos para o desenvolvimento web, facilitando o uso de websocket, e garantindo multiplas vezes conexões concorrentes comparado com outros ambientes.
+Mostrando cada vez mais maturidade, NodeJS sobre a engine V8 do Google, abriu novos caminhos para o desenvolvimento web, facilitando o uso de websocket, e garantindo múltiplas vezes conexões concorrentes comparado com outros ambientes.
 Mas seu papel, meramente é autenticar o usuário, e manipular sua árvore de dados.
 Uma só linguagem de programação para cliente e servidor, é um sonho.
 
@@ -105,8 +107,6 @@ Ao invés, arquiva e serve os dados, num único formato(JSON/BSON), dispensando 
 
 Desta maneira, deixa-se espaço para o desenvolvedor aprimorar a captura de informações, servindo, sua análise, de base para a criação de novos produtos, que se encaixam como uma luva na necessidade/desejo do usuário.
     
-### Realtime
-    
 ### Palavras finais
 
 A 8 anos desenvolvendo web, se faz necessário, por diversas vezes, sair de sua zona de conforto e buscar novos conhecimentos, afins de permanecer no mercado.
@@ -118,27 +118,41 @@ Mas havia uma forma melhor, de se fazer mais, e de uma forma menos braçal (codi
 A parceria NodeJS e MongoDB, realmente, não pode passar desapercebido, com uma concorrência de conexão bem superior ás outras ferramentas do mercado (php, ruby, python), disponibiliza para o desenvolvedor, uma poderosa e escalável estrutura para disponibilizar websites inteligentes e interativos.
 
 Evoluindo o arquivamento de informações sobre o usuário, o No_SQL, com suas coleções de documentos polimórficas (adaptáveis), facilitando, inclusive, o **mapeamento do universo comportamental do usuário**. 
-Tendo JSON como fundamento da árvore de dados, guarda nativamente, as informações, da forma que será consumida no lado cliente, que também é JSON.
+Tendo JSON/BSON como fundamento da árvore de dados, guarda nativamente, as informações, da forma que será consumida no lado cliente, que também é JSON.
 
 E, o que reduzirá o número de conexões com o servidor, um framework javascript de front-end, pois, todo o processamento da aplicação, passará para o cliente, economizando em servidor, pois normalmente js é estático, e pode muito bem ser servido de um cdn.
 
 Exemplo de atores e papéis:
 
 * AngularJS - MVC front-end, gerencia modelos, processa lógica, roteamentos, templates, etc.
-* NodeJS - Autentica e manuseia árvore de dados
+* NodeJS - Autentica e manuseia árvore de dados, gerenciar websocket.
 * MongoDB - Arquiva em documento estruturado, como dados, serviços, comportamentos, **estado da aplicação** e tudo mais, que a programação do front-end for capaz de processar sobre o usuário.
 
-Estrutura robusta, relativamente, de baixo custo, reduzindo fortemente a quantidade de conexões ao servidor, fazendo com que o desenvolvedor se preocupe, com a lógica da aplicação, aprimorando a experiência do usuário. 
+Estrutura robusta, com curva suave de aprendizado, amplamente adotado por grandes empresas externas, reduzindo fortemente a quantidade de conexões ao servidor, diminuindo o tempo de programação,fazendo com que o desenvolvedor se preocupe, com a lógica da aplicação, objetivando aprimorar a experiência do usuário. 
     
 ## Experiência
 
+Codificar o produto vendido pelo Comercial/Marketing, obedecendo a regra de negócio definida, incluso:
+* CRM
+* Comércio Eletrônico
+* Qualquer coisa com API (facebook, twitter, github, linkedin)
+* Portais familiares
+* B2B
+* Integrações
+* Data e lógica para mobile.
+
+Empresas que participei como colaborador de 2005 a 2012:
+* Interage - http://interage.com.br
+* Pronexo - http://pronexo.com.br
+* F1 Soluções - http://f1solucoes.com.br
+* Plan Marketing - http://planmkt.com.br
+
 ## Informações Pessoais
 
+__Nome:__ Ricardo Negri
 
+__Email:__ riconegri at gmail
 
-__Dicas:__
-* Coloque o seu CV aqui, __não coloque só um link para um site externo tipo LinkedIn e about.me__. Você pode até colocar o seu linkedin, mas como uma informação a mais no seu CV.
-* Obedeça a formatação do markdown do GitHub. Isso deixa a leitura do seu currículo mais agradável, e provavelmente mais pessoas da Globo.com irão lê-lo.
-	* [Markdown syntax guide] (http://daringfireball.net/projects/markdown/syntax)
-	* [GitHub Flavored Markdown] (http://github.github.com/github-flavored-markdown/)
-	* Pressione M enquanto lê o README.mkd no projeto [IWantToWorkAtGloboCom] (http://github.com/globocom/IWantToWorkAtGloboCom), para ver o cheat-sheet
+__Fone:__ 51 8497-8588
+
+__Linkedin:__ riconegri
